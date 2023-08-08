@@ -1,0 +1,216 @@
+digraph {
+	graph [fontname="MS Gothic"]
+	node [fontname="MS Gothic"]
+	edge [fontname="MS Gothic"]
+	subgraph "cluster赤井家" {
+		color=pink label="赤井家"
+		"メアリー世良"
+		"世良真純"
+		"羽田秀𠮷"
+		"赤井務武"
+	}
+	subgraph "cluster黒の組織" {
+		color=pink label="黒の組織"
+		"ベルモット"
+		"クリス・ヴィンヤード"
+		"シャロン・ヴィンヤード"
+		"バーボン"
+		"スコッチ"
+		"ジン"
+		"キール"
+		"水無玲奈"
+		"ライ"
+		"諸星大"
+		"シェリー"
+		"ラム"
+		"脇田兼則"
+	}
+	subgraph "cluster爆発物処理班" {
+		color=pink label="爆発物処理班"
+		"松田陣平"
+		"萩原研二"
+	}
+	subgraph "clusterCIA・本堂家" {
+		color=pink label="CIA・本堂家"
+		"本堂瑛海"
+		"イーサン・本堂"
+		"本堂瑛祐"
+	}
+	subgraph "cluster少年探偵団" {
+		color=pink label="少年探偵団"
+		"吉田歩美"
+		"小嶋元太"
+		"円谷光彦"
+		"小林澄子"
+		"灰原哀"
+		"阿笠博士"
+	}
+	subgraph clusterFBI {
+		color=pink label=FBI
+		"赤井秀一"
+		"ジョディ・スターリング"
+		"ジェイムズ・ブラック"
+		"アンドレ・キャメル"
+	}
+	subgraph "cluster群馬県警" {
+		color=pink label="群馬県警"
+		"山村ミサオ"
+	}
+	subgraph "cluster神奈川県警" {
+		color=pink label="神奈川県警"
+		"萩原千速"
+		"横溝重悟"
+	}
+	subgraph "cluster工藤家" {
+		color=pink label="工藤家"
+		"工藤新一"
+		"江戸川コナン"
+		"工藤優作"
+		"工藤有希子"
+		"沖矢昴"
+	}
+	subgraph "cluster警視庁捜査一課" {
+		color=pink label="警視庁捜査一課"
+		"佐藤美和子"
+		"高木渉"
+		"千葉和伸"
+		"白鳥任三郎"
+		"伊達航"
+		"目暮十三"
+	}
+	subgraph "cluster警視庁交通部" {
+		color=pink label="警視庁交通部"
+		"三池苗子"
+		"宮本由美"
+	}
+	subgraph "cluster宮野家" {
+		color=pink label="宮野家"
+		"宮野エレーナ"
+		"宮野志保"
+		"宮野明美"
+		"宮野厚司"
+	}
+	subgraph "cluster毛利家" {
+		color=pink label="毛利家"
+		"毛利蘭"
+		"毛利小五郎"
+		"妃英理"
+	}
+	subgraph "cluster長野県警" {
+		color=pink label="長野県警"
+		"諸伏高明"
+		"大和勘助"
+		"上原由衣"
+	}
+	subgraph "cluster大阪府警" {
+		color=pink label="大阪府警"
+		"遠山銀司郎"
+		"服部平蔵"
+		"大滝悟郎"
+	}
+	subgraph "cluster喫茶ポアロ" {
+		color=pink label="喫茶ポアロ"
+		"安室透"
+		"榎本梓"
+	}
+	subgraph "cluster公安" {
+		color=pink label="公安"
+		"降谷零"
+		"諸伏景光"
+		"風見裕也"
+	}
+	subgraph "cluster静岡県警" {
+		color=pink label="静岡県警"
+		"横溝参悟"
+	}
+	subgraph "cluster鈴木家" {
+		color=pink label="鈴木家"
+		"鈴木園子"
+		"鈴木綾子"
+		"鈴木朋子"
+		"鈴木史朗"
+		"鈴木次郎吉"
+	}
+	subgraph "cluster大阪・京都" {
+		color=pink label="大阪・京都"
+		"服部平次"
+		"遠山和葉"
+		"大岡紅葉"
+		"伊織無我"
+		"服部静華"
+		"沖田総司"
+	}
+	"ベルモット" -> "クリス・ヴィンヤード" [label="" color=lightslateblue dir=none]
+	"ベルモット" -> "シャロン・ヴィンヤード" [label="" color=lightslateblue dir=none]
+	"バーボン" -> "降谷零" [label="" color=lightslateblue dir=none]
+	"バーボン" -> "安室透" [label="" color=lightslateblue dir=none]
+	"安室透" -> "毛利小五郎" [label="弟子入り"]
+	"スコッチ" -> "諸伏景光" [label="" color=lightslateblue dir=none]
+	"ジン" -> "赤井秀一" [label="敵対視" color=black dir=none]
+	"ベルモット" -> "ジョディ・スターリング" [label="敵対視" color=black dir=none]
+	"シャロン・ヴィンヤード" -> "工藤有希子" [label="友人" color=black dir=none]
+	"キール" -> "本堂瑛海" [label="" color=lightslateblue dir=none]
+	"キール" -> "水無玲奈" [label="" color=lightslateblue dir=none]
+	"本堂瑛海" -> "イーサン・本堂" [label="親子" color=black dir=none]
+	"本堂瑛海" -> "本堂瑛祐" [label="姉弟" color=black dir=none]
+	"ライ" -> "赤井秀一" [label="" color=lightslateblue dir=none]
+	"ライ" -> "諸星大" [label="" color=lightslateblue dir=none]
+	"シェリー" -> "宮野志保" [label="" color=lightslateblue dir=none]
+	"シェリー" -> "灰原哀" [label="" color=lightslateblue dir=none]
+	"宮野志保" -> "宮野明美" [label="姉妹" color=black dir=none]
+	"宮野志保" -> "宮野エレーナ" [label="親子" color=black dir=none]
+	"諸星大" -> "宮野明美" [label="かつて交際していた" color=black dir=none]
+	"安室透" -> "赤井秀一" [label="敵対視" color=black dir=none]
+	"ラム" -> "脇田兼則" [label="" color=lightslateblue dir=none]
+	"脇田兼則" -> "毛利小五郎" [label="弟子入り"]
+	"宮野エレーナ" -> "メアリー世良" [label="姉妹？" color=black dir=none]
+	"メアリー世良" -> "赤井務武" [label="夫婦" color=black dir=none]
+	"メアリー世良" -> "世良真純" [label="親子" color=black dir=none]
+	"世良真純" -> "羽田秀𠮷" [label="兄妹" color=black dir=none]
+	"世良真純" -> "赤井秀一" [label="兄妹" color=black dir=none]
+	"宮野エレーナ" -> "宮野厚司" [label="夫婦" color=black dir=none]
+	"赤井秀一" -> "沖矢昴" [label="" color=lightslateblue dir=none]
+	"江戸川コナン" -> "工藤新一" [label="" color=lightslateblue dir=none]
+	"毛利蘭" -> "工藤新一" [label="恋人" color=black dir=none]
+	"毛利蘭" -> "毛利小五郎" [label="親子" color=black dir=none]
+	"毛利小五郎" -> "妃英理" [label="夫婦" color=black dir=none]
+	"江戸川コナン" -> "毛利小五郎" [label="居候"]
+	"毛利蘭" -> "鈴木園子" [label="親友" color=black dir=none]
+	"工藤新一" -> "服部平次" [label="親友・ライバル" color=black dir=none]
+	"工藤有希子" -> "工藤優作" [label="夫婦" color=black dir=none]
+	"工藤優作" -> "工藤新一" [label="親子" color=black dir=none]
+	"阿笠博士" -> "灰原哀" [label="匿う"]
+	"服部平次" -> "遠山和葉" [label="両片思い" color=black dir=none]
+	"吉田歩美" -> "江戸川コナン" [label="好き"]
+	"小嶋元太" -> "吉田歩美" [label="好き"]
+	"円谷光彦" -> "吉田歩美" [label="好き"]
+	"円谷光彦" -> "灰原哀" [label="好き"]
+	"佐藤美和子" -> "高木渉" [label="恋人" color=black dir=none]
+	"千葉和伸" -> "三池苗子" [label="恋人" color=black dir=none]
+	"白鳥任三郎" -> "小林澄子" [label="恋人" color=black dir=none]
+	"羽田秀𠮷" -> "宮本由美" [label="恋人" color=black dir=none]
+	"松田陣平" -> "萩原研二" [label="幼馴染・親友" color=black dir=none]
+	"降谷零" -> "諸伏景光" [label="幼馴染・親友" color=black dir=none]
+	"風見裕也" -> "降谷零" [label="上司"]
+	"諸伏高明" -> "諸伏景光" [label="兄弟" color=black dir=none]
+	"大和勘助" -> "上原由衣" [label="両想い" color=black dir=none]
+	"萩原研二" -> "萩原千速" [label="姉弟" color=black dir=none]
+	"横溝重悟" -> "萩原千速" [label="両想い？" color=black dir=none]
+	"横溝重悟" -> "横溝参悟" [label="双子" color=black dir=none]
+	"山村ミサオ" -> "諸伏景光" [label="幼馴染" color=black dir=none]
+	"伊達航" -> "高木渉" [label="手帳を託す"]
+	"佐藤美和子" -> "松田陣平" [label="両想いだった" color=black dir=none]
+	"佐藤美和子" -> "宮本由美" [label="親友" color=black dir=none]
+	"諸伏高明" -> "大和勘助" [label="ライバル" color=black dir=none]
+	"毛利小五郎" -> "目暮十三" [label="元上司"]
+	"大岡紅葉" -> "服部平次" [label="好き"]
+	"服部平次" -> "沖田総司" [label="ライバル" color=black dir=none]
+	"伊織無我" -> "大岡紅葉" [label="従事"]
+	"服部平蔵" -> "服部静華" [label="夫婦" color=black dir=none]
+	"服部平蔵" -> "服部平次" [label="親子" color=black dir=none]
+	"遠山和葉" -> "遠山銀司郎" [label="親子" color=black dir=none]
+	"伊織無我" -> "風見裕也" [label="同期" color=black dir=none]
+	"鈴木史朗" -> "鈴木朋子" [label="夫婦" color=black dir=none]
+	"鈴木園子" -> "鈴木綾子" [label="姉妹" color=black dir=none]
+	"鈴木史朗" -> "鈴木園子" [label="親子" color=black dir=none]
+}
