@@ -12,18 +12,17 @@ digraph {
 	subgraph "cluster黒の組織" {
 		color=pink label="黒の組織"
 		"ベルモット"
-		"クリス・ヴィンヤード"
-		"シャロン・ヴィンヤード"
 		"バーボン"
 		"スコッチ"
 		"ジン"
+		"ウォッカ"
+		"キャンティ"
+		"コルン"
 		"キール"
-		"水無玲奈"
 		"ライ"
 		"諸星大"
 		"シェリー"
 		"ラム"
-		"脇田兼則"
 	}
 	subgraph "cluster爆発物処理班" {
 		color=pink label="爆発物処理班"
@@ -42,8 +41,17 @@ digraph {
 		"小嶋元太"
 		"円谷光彦"
 		"小林澄子"
+		"若狭留美"
 		"灰原哀"
 		"阿笠博士"
+	}
+	subgraph "cluster芸能界" {
+		color=pink label="芸能界"
+		"水無玲奈"
+		"沖野ヨーコ"
+		"クリス・ヴィンヤード"
+		"シャロン・ヴィンヤード"
+		"藤峰有希子"
 	}
 	subgraph clusterFBI {
 		color=pink label=FBI
@@ -55,6 +63,10 @@ digraph {
 	subgraph "cluster群馬県警" {
 		color=pink label="群馬県警"
 		"山村ミサオ"
+	}
+	subgraph "clusterいろは寿司" {
+		color=pink label="いろは寿司"
+		"脇田兼則"
 	}
 	subgraph "cluster神奈川県警" {
 		color=pink label="神奈川県警"
@@ -69,6 +81,12 @@ digraph {
 		"工藤有希子"
 		"沖矢昴"
 	}
+	subgraph "cluster黒羽家" {
+		color=pink label="黒羽家"
+		"黒羽盗一"
+		"黒羽千影"
+		"黒羽快斗"
+	}
 	subgraph "cluster警視庁捜査一課" {
 		color=pink label="警視庁捜査一課"
 		"佐藤美和子"
@@ -77,6 +95,12 @@ digraph {
 		"白鳥任三郎"
 		"伊達航"
 		"目暮十三"
+		"黒田兵衛"
+	}
+	subgraph "cluster警視庁捜査二課" {
+		color=pink label="警視庁捜査二課"
+		"中森銀三"
+		"茶木神太郎"
 	}
 	subgraph "cluster警視庁交通部" {
 		color=pink label="警視庁交通部"
@@ -122,6 +146,15 @@ digraph {
 	subgraph "cluster静岡県警" {
 		color=pink label="静岡県警"
 		"横溝参悟"
+	}
+	subgraph "clusterスポーツ界" {
+		color=pink label="スポーツ界"
+		"京極真"
+		"比護隆佑"
+		"赤木英雄"
+		"上村直樹"
+		"比護隆佑"
+		"真田貴大"
 	}
 	subgraph "cluster鈴木家" {
 		color=pink label="鈴木家"
@@ -213,4 +246,19 @@ digraph {
 	"鈴木史朗" -> "鈴木朋子" [label="夫婦" color=black dir=none]
 	"鈴木園子" -> "鈴木綾子" [label="姉妹" color=black dir=none]
 	"鈴木史朗" -> "鈴木園子" [label="親子" color=black dir=none]
+	"鈴木次郎吉" -> "怪盗キッド" [label="敵対視"]
+	"江戸川コナン" -> "怪盗キッド" [label="敵対視"]
+	"怪盗キッド" -> "黒羽快斗" [label="" color=lightslateblue dir=none]
+	"黒羽盗一" -> "黒羽快斗" [label="親子" color=black dir=none]
+	"黒羽盗一" -> "黒羽千影" [label="夫婦" color=black dir=none]
+	"中森銀三" -> "怪盗キッド" [label="敵対視"]
+	"中森青子" -> "中森銀三" [label="親子" color=black dir=none]
+	"中森青子" -> "黒羽快斗" [label="幼馴染み" color=black dir=none]
+	"寺井黄之助" -> "怪盗キッド" [label="助手"]
+	"シャロン・ヴィンヤード" -> "黒羽盗一" [label="弟子入り"]
+	"工藤有希子" -> "黒羽盗一" [label="弟子入り"]
+	"藤峰有希子" -> "工藤有希子" [label="芸能界引退"]
+	"毛利小五郎" -> "沖野ヨーコ" [label="ファン"]
+	"鈴木園子" -> "京極真" [label="恋人" color=black dir=none]
+	"灰原哀" -> "比護隆佑" [label="ファン"]
 }
